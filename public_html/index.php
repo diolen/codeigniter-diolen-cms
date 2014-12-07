@@ -22,7 +22,7 @@ date_default_timezone_set('America/Argentina/Buenos_Aires');
  */
         switch(dirname(__FILE__)) {
             
-                case '/var/www/cms/public_html':
+                case '/var/www/html/codeigniter-diolen-cms/public_html':
                     define('ENVIRONMENT', 'development');
                 break;
 
