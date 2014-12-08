@@ -51,7 +51,7 @@ class User_m extends MY_Model
             'email' => $this->input->post('email'),
             'password' => $this->hash($this->input->post('password')),
             ), TRUE);
-
+        
         if(count($user)) {
             $data = array(
                 'name' => $user->name,

@@ -1,6 +1,6 @@
 <?php
 
-date_default_timezone_set('America/Argentina/Buenos_Aires');
+date_default_timezone_set('Europe/Amsterdam');
 
 /*
  *---------------------------------------------------------------
@@ -20,17 +20,15 @@ date_default_timezone_set('America/Argentina/Buenos_Aires');
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-        switch(dirname(__FILE__)) {
-            
-                case '/var/www/html/codeigniter-diolen-cms/public_html':
-                    define('ENVIRONMENT', 'development');
-                break;
-
-                default:
-                    define('ENVIRONMENT', 'production');
-                break;
-        
-        }	
+	switch (dirname(__FILE__)) {
+		case '/var/www/html/codeigniter-diolen-cms/public_html':
+			define('ENVIRONMENT', 'development');
+		break;
+		default:
+			define('ENVIRONMENT', 'production');
+		break;
+	}
+	
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
