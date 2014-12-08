@@ -1,6 +1,6 @@
 <div class="modal-header">
     <h3>Log in</h3>
-    <p>Please lon in using your credentials</p>
+    <p>Please log in using your credentials</p>
 </div>
 
 <div class="modal-body">

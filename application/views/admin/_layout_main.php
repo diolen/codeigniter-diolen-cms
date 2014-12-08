@@ -6,7 +6,7 @@
                 <ul class="nav">
                     <li class="active"><a href="<?php echo site_url('admin/dashboard') ?>">Dashboard</a></li>
                     <li><?php echo anchor('admin/pages', 'pages') ?></li>
-                    <li><?php echo anchor('admin/users', 'users') ?></li>
+                    <li><?php echo anchor('admin/user', 'users') ?></li>
                 </ul>
             </div>
         </div>
@@ -15,9 +15,7 @@
             <div class="row">
                 <!-- Main Column -->
                 <div class="span9">
-                    <section>
-                        <h2>Page name</h2>
-                    </section>
+                    <?php $this->load->view($subview) ?>
                 </div>
                 <!-- Sidebar -->
                 <div class="span3">
