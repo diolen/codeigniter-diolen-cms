@@ -59,7 +59,7 @@ class Page_m extends MY_Model
 		return parent::get($id, $single);
 	}
 
-	public function get_no_parents ()
+	public function get_no_parents()
 	{
 		// Fetch pages without parents
 		$this->db->select('id, title');

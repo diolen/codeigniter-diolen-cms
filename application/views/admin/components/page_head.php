@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap -->
         <link href="<?php echo site_url('css/bootstrap.min.css'); ?>" rel="stylesheet">
+        <link href="<?php echo site_url('css/datepicker.css'); ?>" rel="stylesheet">
         
         <script src="<?php echo site_url('js/jquery.js'); ?>"></script>
-        <script src="<?php echo site_url('js/bootstrap.min.js'); ?>"></script>
         
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <!-- TinyMCE -->
