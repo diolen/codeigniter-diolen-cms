@@ -8,7 +8,7 @@ class Page extends Frontend_Controller {
     }
     
     public function index() {
-
+    	$this->load->view('_main_layout');
     }
 
 }
